@@ -1,0 +1,269 @@
+/* Style Start */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav,
+footer {
+    background-color: #1F2937;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header p,
+nav {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+button {
+    color: #F9FAF8;
+}
+
+body h1 {
+    font-size: 38px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #1F2937;
+}
+
+#quote-wrapper {
+    background-color: #E5E7EB;
+}
+
+#quote-wrapper h1{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+/* Style End */
+
+/* Placement Start */
+
+/* Nav Start */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    position: fixed;
+    width: 100%;
+}
+
+#logo {
+    cursor: pointer;
+    max-height: 200px;
+    max-width: 100px;
+    width: 100%;
+}
+
+.nav-link {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 0px 20px;
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin: 0 30px;
+    background-color: #1F2937;
+    transition: 0.3s ease-out;
+}
+
+.nav-link li:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+}
+
+/* Nav End */
+
+/* Header Start */
+
+header {
+    display: block;
+}
+
+#road-wrapper img {
+    width: 500px;
+    height: 350px;
+}
+
+#header-wrapper {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+#title-wrapper {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+#title-wrapper h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#sign-up {
+    display: block;
+    justify-content: center;
+    width: 110px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Roboto', arial;
+    font-weight: bold;
+}
+
+/* Header end */
+
+/* Info Start */
+#body-image-wrapper img{
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+}
+
+#body-image-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 110px;  
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 0 110px;
+    margin-top: -50px;
+}
+
+.image-h1 {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#body-image-wrapper-h1 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Info End */
+
+/* Quote Start */
+
+#quote-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 110px;
+}
+
+#quote-wrapper h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+
+#quote-wrapper b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    text-align: right; 
+    font-family: 'Roboto', arial;
+}
+
+/* Quote End */
+
+
+
+/* Action Start */
+
+#action-wrapper {
+    background-color: #3882F6;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#action-text-wrapper {
+    text-align: left;
+}
+
+#action-text-wrapper p {
+    color: #fff;
+    margin: 30px 0px 0px 50px;
+    opacity: 0.7;
+}
+
+h2 {
+    margin: 30px 0px 0px 50px;
+    padding: 0px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+}
+
+#action-button {
+    padding: 5px 25px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+}
+
+/*Action End */
+
+/* Footer Start */
+
+footer {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 30px;
+}
+
+/*Footer End */
+
+/* Placement end */
